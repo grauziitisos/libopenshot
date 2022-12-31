@@ -220,6 +220,8 @@ cd [libopenshot-audio repo folder]
 cmake -B build -S .
 cmake --build build
 ./build/src/openshot-audio-test-sound  (This should play a test sound)
+# as for the current version, test sound has been renamed to audio demo.
+./build/src/openshot-audio-demo (This should play a test sound)
 cmake --install build
 ```
 
